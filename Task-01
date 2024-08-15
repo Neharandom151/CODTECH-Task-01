@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  type="text/css"  href="style.css">
+    <title>Madu Resturant</title>
+</head>
+<body>
+    <div id="hero">
+        <div id="hero_content">
+            <h1>Medu Resturant</h1>
+            <h2>Best Quality and Tasty Food Point</h2>
+            <a href="#Menu">Menu</a>
+        </div>
+    </div>
+
+    <div id="header">
+        <nav id="navbar">
+            <h1>Madu Resturant</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#chefs">Chef</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#content">Contact</a></li>
+            </ul>
+            <div id="phone">
+                <a href="tel:+12121211352">+12121211352</a>
+            </div>
+        </nav>
+        <div id="mobile_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#chefs">Chef</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#content">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="Menu">
+        <h1 id="section">Menu</h1>
+        <div id="Menu_row">
+            <div id="Menu_col">
+                <h2>Breakfast</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/breakfast1.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/breakfast2.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/breakfast3.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="Menu_col">
+                <h2>Lunch</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/lunch1.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/lunch2.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/lunch3.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="Menu_col">
+                <h2>Dinner</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/dinner1.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/dinner2.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="images/dinner3.jpg" >
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="chefs"> <!-- changed id to "chefs" (plural) -->
+        <h1 id="section">Meet Our Chefs</h1>
+        <div id="chefs_row"> <!-- changed id to "chefs_row" -->
+            <div class="chef_col"> <!-- changed class to "chef_col" -->
+                <div class="chef_image"> <!-- added class "chef_image" -->
+                    <img src="images/1.png" alt="Chef 1">
+                </div>
+                <div class="chef_info"> <!-- added class "chef_info" -->
+                    <h4>Muddsar Qayyum</h4>
+                </div>
+            </div>
+            <div class="chef_col">
+                <div class="chef_image">
+                    <img src="images/2.png" alt="Chef 2">
+                </div>
+                <div class="chef_info">
+                    <h4>Muddsar Qayyum</h4>
+                    
+                </div>
+            </div>
+            <div class="chef_col">
+                <div class="chef_image">
+                    <img src="images/3.png" alt="Chef 3">
+                </div>
+                <div class="chef_info">
+                    <h4>Muddsar Qayyum</h4>
+                    
+                </div>
+            </div>
+            <div class="chef_col">
+                <div class="chef_image">
+                    <img src="images/4.png" alt="Chef 4">
+                </div>
+                <div class="chef_info">
+                    <h4>Muddsar Qayyum</h4>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <h1 id="section">About</h1>
+        <div id="about_row">
+            <div class="about_col">
+                <h1>About Us</h1>
+                <p>Welcome to Madu Resturant<br>
+                    At Madu Resturant, we're passionate about serving up more than just a meal.
+                    We're dedicated to providing an exceptional dining experience that will leave you feeling satisfied, inspired, and eager to return.<br>
+                    Join Our Family<br>
+                    At Madu Resturant, we're more than just a restaurant – we're a community. Join us for a meal, and become a part of our family. We can't wait to welcome you to our table!
+                    Feel free to customize this content to fit your restaurant's unique voice, style, and story!</p>
+            </div>
+            <div class="about_col">
+                <div id="about_img">
+                    <img src="images/about.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content"> <!-- changed id from "contant" to "content" -->
+        <h1 id="section">Contact</h1>
+        <div id="contact_row">
+          <div class="content_col"> <!-- changed class from "contant_col" to "content_col" -->
+            <div>
+              <p>
+                <i class="fa fa-map-marker"></i> <!-- changed fa-map-maker to fa-map-marker -->
+                abbopsur, district poonch, azad kashmir <!-- added comma after "abbopsur" and changed "distric" to "district" -->
+              </p>
+              <p>
+                <a href="mailto:maduwebtech@gmail.com">
+                  <i class="fa fa-envelope"></i>
+                  maduwebtech@gmail.com
+                </a>
+              </p>
+              <p>
+                <a href="tel:+134657894328">
+                  <i class="fa fa-phone-square"></i>
+                  +134657894328
+                </a>
+              </p>
+              <h3>Follow Us </h3>
+              <p id="Social">
+                <a href="https://www.facebook.com"><i class="fa fa-facebook-official fa-2px"></i></a> <!-- added Facebook URL -->
+                <a href="https://www.instagram.com"><i class="fa fa-instagram fa-2px"></i></a> <!-- added Instagram URL -->
+                <a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-2px"></i></a> <!-- added Twitter URL -->
+                <a href="https://www.youtube.com"><i class="fa fa-youtube-square fa-2px"></i></a> <!-- changed fa-youtude-square to fa-youtube-square and added YouTube URL -->
+              </p>
+            </div>
+          </div>
+          <div class="content_col"> <!-- changed class from "contant_col" to "content_col" -->
+            <form>
+              <h2>Get in touch</h2>
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Email">
+              <input type="text" placeholder="Subject"> <!-- changed "subject" to "Subject" -->
+              <textarea rows="6" placeholder="Text Message"></textarea> <!-- changed "row" to "rows" -->
+              <button>Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div>
+            <h5>Copyright &copy;2023 | <a href="">maduwebtech</a></h5>
+        </div>
+        <div id="top">
+            <a href="#hero"><i class="fa fa-chevron-circle-up"></i></a>
+        </div>
+      </div>
+</body>
+</html>
